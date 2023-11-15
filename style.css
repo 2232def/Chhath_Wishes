@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(Chhath_background.png);
+    background-size: cover;
+}
+.owner h1{
+    margin-top:19px;
+    margin-left: 5px;
+}
+.options ul{
+    float: right;
+    margin-top: -23px;
+}
+.options ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.options ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+header{
+    position: fixed;
+    background-color:rgba(30, 30, 30, 0.85);
+    width: 100%;
+    margin-top: -170px;
+    height: 90px;
+}
+.intro h1{
+    text-align:center;
+    margin-top: 160px;
+    font-size: 60px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Oxygen', sans-serif;
+}
+.intro h2{
+    text-align:center;
+    margin-top: 7px;
+    font-size:30px;
+    font-family:'Oxygen', sans-serif;
+    color:blue
+}
